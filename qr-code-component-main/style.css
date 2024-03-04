@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Protest+Riot&display=swap');
+
+*{
+    padding: 0;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+.card{
+    background-color:  hsl(0, 0%, 100%);
+    max-width: 350px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px hsl(220, 15%, 55%);
+}
+.card_content{
+    padding: 16px;
+}
+#card_image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+#card_heading{
+    font-weight: 700;
+    margin: 25px 0px;
+}
+#card_text{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px;
+}
+.attribution{
+    padding-top: 15px;
+}
